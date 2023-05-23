@@ -1,0 +1,75 @@
+<html>
+    <head></head>
+    <body>
+
+        <script type="text/javascript">
+            // array examples
+            let arrayOfNumbers = [1, 2, 3, 4, 5];
+            // alert(arrayOfNumbers)
+
+            let mixedArray = [1, "two", 3.4, "four", 5]; // mixed array
+            mixedArray.push("six"); // add element at the end of the array
+            // alert(mixedArray[5])
+            // alert(mixedArray)
+
+            mixedArray.pop(); // remove element from the end of the array
+            mixedArray.pop(); // remove element from the end of the array
+            mixedArray.pop(); // remove element from the end of the array
+
+            // alert(mixedArray);
+
+            let fruits = ["apple", "banana", "orange", "mango"]; // array of fruits
+            // fruits.shift();
+            // alert(fruits);
+
+            // fruits.unshift("grapes", "pineapple");
+
+            // alert(fruits);
+            // alert(fruits.length);
+
+
+            // fruits.splice(fruits.length/2, fruits.length/2); // remove elements from the middle of the array
+            // fruits.splice(fruits.length, 0, "grapes", "pineapple"); // add elements at the end of the array
+            // alert(fruits); // print the array
+
+            // let slicedFruits = fruits.slice(1, 3); // remove elements from the middle of the array
+            // alert(slicedFruits); // print the array
+
+            // ============== Javascripty Objects ==============
+            let person = {
+                eye: "to see",
+                nose: {type1: "to smell", type2: "to breath"},
+                mouth: ["to eat", "to speak"],
+                ears: "to hear",
+            }; // objects are made of a pairs of key and value, for instace eye is the key and "to see" is the value
+            // alert(person.eye); // print the value of the key eye
+            // alert(person.eye + ',' + person.mouth); // print the value of the key mouth
+
+            // add a new key and value to the object
+            person.hands = "to touch";
+            // alert(person.hands);
+            delete person.nose; // delete a key and value from the object
+
+            // alert(person.nose);
+
+            // ============== Javascript type conversion ==============
+
+            let num1 = 2; // number
+            let num2 = 3; // number
+            // alert(num1.toString() + num2.toString()); // 23
+
+            let num3 = "2"; // string
+            let num4 = "3"; // string
+            // alert(parseInt(num3) + parseInt(num4)); // 5
+
+            // String()
+
+            // let num5 = 2; // number
+            // let num6 = 3; // number
+            // alert(String(num5) + String(num6)); // 23
+
+            alert(Array.isArray(arrayOfNumbers));
+
+        </script>
+    </body>
+</html>
