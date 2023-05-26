@@ -1,0 +1,53 @@
+<html>
+    <head></head>
+    <body>
+
+        <script type="text/javascript">
+            // switch cases
+            let num1 = 10;
+            let num2 = 20;
+            let action = "sub";
+
+            // switch(action) {
+            //     case "add": // // if action == "add" then execute this case
+            //         alert(num1 + num2); // // alert() is used to display a message box
+            //         break; // // break is used to stop the execution of switch cases
+            //     case "sub": // // if action == "sub" then execute this case 
+            //     alert(num1 - num2); // // alert() is used to display a message box
+            //         break; // // break is used to stop the execution of switch cases
+            //     case "mul": // // if action == "mul" then execute this case
+            //     alert(num1 * num2); // // alert() is used to display a message box
+            //         break; // // break is used to stop the execution of switch cases
+            //     case "div": // // if action == "div" then execute this case
+            //     alert(num1 / num2); // // alert() is used to display a message box
+            //         break; // // break is used to stop the execution of switch cases
+            //     default: // // if action is not equal to any of the above cases then execute this case
+            //         alert("Invalid action"); // // alert() is used to display a message box
+            // }
+            
+            // ternary operator
+            // let result = (num1 > num2) ? "num1 is greater" : "num2 is greater"; // // if num1 > num2 then result = "num1 is greater" else result = "num2 is greater"
+            alert(result); // alert() is used to display a message box
+
+            // nested if/else statements
+            let timeHasPasseed = 7; // minutes
+            let amIcooking = true;
+            if (amIcooking == true && timeHasPasseed < 5) {
+                alert("Keep cooking, wait for 5 minutes");
+            }
+            else if (amIcooking == true && timeHasPasseed >= 5 && timeHasPasseed <= 15) {
+                if (timeHasPasseed == 7 ) {
+                    alert('add some salt');
+                } else if (timeHasPasseed == 10) {
+                    alert('add some pepper');
+                } else if (timeHasPasseed == 15) {
+                    alert('turn off the stove');
+                }
+            }
+
+            
+
+        </script>
+    </body>
+
+</html>

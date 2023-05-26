@@ -1,0 +1,6 @@
+·       Switch
+·       Ternary(ტერნარური) ოპერატორები
+·       ფუნქციები
+·       Function declaration vs Function expressions
+·       Arrow Functions
+extra: შესავალი ციკლურ ოპერაციებში
