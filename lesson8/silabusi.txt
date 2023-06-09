@@ -1,0 +1,5 @@
+·what is AJAX
+·what is JSON
+·JSON methods
+·Fetch API
+·Async/await
