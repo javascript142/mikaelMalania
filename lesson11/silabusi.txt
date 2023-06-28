@@ -1,4 +1,4 @@
 ·დეველოპერის ხელსაწყოები (Dev tools)
-·More about Console and performance
+. session storage, local storage
 ·First paint and first contentful paint
 ·საფინალო პროექტის განხილვა და არჩევა
